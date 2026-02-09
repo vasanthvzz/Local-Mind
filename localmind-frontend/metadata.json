@@ -1,0 +1,5 @@
+{
+  "name": "Local Mind",
+  "description": "A strictly typed, local-first RAG (Retrieval-Augmented Generation) interface for managing knowledge bases and AI conversations.",
+  "requestFramePermissions": []
+}
