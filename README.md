@@ -32,6 +32,52 @@ Before you begin, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [Python](https://www.python.org/) (v3.11 or higher)
 - [PostgreSQL](https://www.postgresql.org/) (ensure the service is running and you have a database created)
+- [Ollama](https://ollama.com/) (required for running local models)
+
+## 🦙 Models & Inference Setup
+
+This project uses **Ollama** to serve state-of-the-art open-source models locally.
+
+### 1. Install & Serve Ollama
+First, [download and install Ollama](https://ollama.com/download) for your system. Once installed, start the Ollama server:
+```bash
+ollama serve
+```
+
+### 2. Pull Required Models
+We use specific models optimized for reasoning and retrieval:
+
+```bash
+# Pull the LLM
+ollama pull llama3.1:8b
+
+# Pull the Embedding Model
+ollama pull bge-m3
+```
+
+### 🧠 Model Architecture & Comparison
+
+#### **Large Language Model (LLM): Llama 3.1 8B**
+We use Mega's **Llama 3.1 8B** for its superior reasoning capabilities and efficiency in local environments.
+
+| Feature | **Llama 3.1 8B** 🏆 | Mistral 7B v0.3 | Gemma 7B |
+| :--- | :--- | :--- | :--- |
+| **Context Window** | **128k** | 32k | 8k |
+| **Reasoning** | **SOTA** for size class | High | Moderate |
+| **Function Calling** | Native & Robust | Supported | Limited |
+| **License** | Open Weights | Apache 2.0 | Open Weights |
+| **Best For** | Complex RAG, Long-context | General Chat | Creative Writing |
+
+#### **Embedding Model: BGE-M3**
+We leverage **BAAI's BGE-M3** (Multi-Lingual, Multi-Functionality, Multi-Granularity) for high-precision semantic search.
+
+| Feature | **BGE-M3** 🏆 | OpenAI text-embedding-3 | E5-Mistral-7B |
+| :--- | :--- | :--- | :--- |
+| **Retrieval Score (MTEB)** | **Top Tier** | High | Very High (Heavy) |
+| **Multilingual** | **100+ Languages** | Good | Moderate |
+| **Max Token Length** | **8192** | 8191 | 32k |
+| **Hybrid Search** | **Dense + Sparse + ColBERT** | Dense Only | Dense Only |
+| **Efficiency** | Highly Optimized | API Dependent | Resource Heavy |
 
 ## 🔧 Installation & Setup
 
