@@ -12,7 +12,7 @@ Local Mind is a powerful, locally-hosted chat and reasoning application designed
 
 ## 🎥 Demo
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c8c3d356b3234c4fbecf2dcace5316ca" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[![Watch the Demo](Images/Screenshot%202026-02-09%20111310.png)](https://www.loom.com/share/c8c3d356b3234c4fbecf2dcace5316ca)
 
 ### Screenshots
 
