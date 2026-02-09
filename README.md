@@ -10,6 +10,15 @@ Local Mind is a powerful, locally-hosted chat and reasoning application designed
 - **Fast & Scalable**: Powered by FastAPI for high-performance API handling.
 - **Database Integration**: robust data persistence with SQLAlchemy and PostgreSQL.
 
+## 🎥 Demo
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c8c3d356b3234c4fbecf2dcace5316ca" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### Screenshots
+
+![Screenshot 1](Images/Screenshot%202026-02-09%20111310.png)
+![Screenshot 2](Images/Screenshot%202026-02-09%20111322.png)
+
 ## 🛠️ Tech Stack
 
 ### Frontend
